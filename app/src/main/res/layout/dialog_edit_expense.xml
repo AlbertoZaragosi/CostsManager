@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Name Input Field -->
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <!-- Daily Expense Input Field -->
+    <EditText
+        android:id="@+id/dailyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Daily"
+        android:inputType="numberDecimal" />
+
+    <!-- Monthly Expense Input Field -->
+    <EditText
+        android:id="@+id/monthlyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monthly"
+        android:inputType="numberDecimal" />
+
+    <!-- Annual Expense Input Field -->
+    <EditText
+        android:id="@+id/annualEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Annual"
+        android:inputType="numberDecimal" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
